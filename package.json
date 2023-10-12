@@ -1,0 +1,30 @@
+{
+  "name": "music-dl-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to download music with metadata and lyrics",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "music-dl-cli": "./bin/index.js"
+  },
+  "author": "Samridh Kandel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "homura-js": "^1.4.2",
+    "isomorphic-unfetch": "^4.0.2",
+    "node-fetch": "^3.3.2",
+    "spotify-to-ytmusic": "^1.2.6",
+    "spotify-url-info": "^3.2.8",
+    "yargs": "^17.7.2",
+    "ytdl-core": "^4.11.5",
+    "ytsr": "^3.8.4"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
