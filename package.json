@@ -19,6 +19,7 @@
     "isomorphic-unfetch": "^4.0.2",
     "node-fetch": "^3.3.2",
     "node-id3": "^0.2.6",
+    "progress": "^2.0.3",
     "spotify-to-ytmusic": "^1.2.6",
     "spotify-url-info": "^3.2.8",
     "spotify-web-api-node": "^5.0.2",
